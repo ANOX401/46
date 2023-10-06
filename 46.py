@@ -172,7 +172,7 @@ def v2():
             pwx = [kode,kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345']
     print(50*'_')
     print(' [💜] Crack process has been completed')
-    print(' 💙] Ids saved in ok.txt,cp.txt')
+    print(' [💙] Ids saved in ok.txt,cp.txt')
     print(50*'_')
 def v3():
     user=[]
