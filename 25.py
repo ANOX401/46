@@ -89,11 +89,11 @@ logo = ("""
                                                 
    
 [+]==============================================
-[+] CREATED BY   :  ANOX 
-[+] COUNTRY        :  INDIA
-[+] ON GITHUB     :  SYCO-ANOX
-[+] TOOL OWNER :  +91 8302788872
-[+] TOOL VERSION :  5.0
+[>>] CREATED BY   :  ANOX 
+[>>] COUNTRY        :  INDIA
+[>>] ON GITHUB     :  SYCO-ANOX
+[>>] TOOL OWNER :  +91 8302788872
+[>>] TOOL VERSION :  5.0
 [+]==============================================""")
 
 
@@ -138,7 +138,7 @@ def v1():
         os.system('clear')
         print(logo)
         tl = str(len(user))
-        print(' [🔥]  Total ids:\033[1;92m '+tl)
+        print(' [🌎]  Total ids:\033[1;92m '+tl)
         print(f"\033[1;97m [🔥]  Target -NAME:\033[1;92m {doamin}")
         print(' \033[1;97m[🔥]  The process has been started')
         print(' [🔥]  Wait for ids ')
@@ -177,7 +177,7 @@ def v2():
             yaari.submit(rcrack1,uid,pwx,tl)
     print(50*'_')
     print(' [💜] Crack process has been completed')
-    print(' 💙] Ids saved in ok.txt,cp.txt')
+    print(' [💙] Ids saved in ok.txt,cp.txt')
     print(50*'_')
 def v3():
     user=[]
@@ -209,7 +209,7 @@ def v3():
         print(50*'_')
         for guru in user:
             uid = kode+kodex+kod+guru
-            pwx = [kode+kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'57273200']
+            pwx = [kode+kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'57273200','59039200','57575751']
             yaari.submit(rcrack1,uid,pwx,tl)
     print(50*'_')
     print(' [🌏] Crack process has been completed')
